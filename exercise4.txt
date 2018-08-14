@@ -1,0 +1,40 @@
+
+I have 9+ years of expertise in Web development technology basically I worked in the different domain based on industry standards.
+I have learned the new things in the each application related to the learning, documentation or 3rd parties.
+My Previous work experience has mostly I worked in Education,Learning,Accidental Insurance,Healthcare,Security,
+ecommerce,Banks,Financial etc
+
+I would like to share the last application which has recent learning and debugging performed.
+
+UTA Mentis Portal-
+
+This application has basically many modules but I worked on new module (BlueSheet) besides of this I have handled the small team
+when our project manager was on leave.
+
+I have developed the front end module using the Backbone js, Underscore Js lib. and backend developed using the Zend framework.
+I learn some new compression tools and the Most Important thing that I directly work under the CTO and I learned the many new tools and
+different view of eyes for each software I worked on many things ER diagram, Sketch, Mockup designing and discussion with
+the team on technical solution etc with the help of CTO,
+
+What I like most-
+
+Starting my presence in the documentation part and Mockup designing part was more than the development so I spent much
+time on Atlassian tool for documents and zendesk for support ticket management.
+
+Technical Solution-
+
+We have 3rd Parties company that provides the API but their documentation not ready so they do communicate with us.So I have
+communicated technically with their team and send them the samples to Provide us the solution accordingly.
+
+New module designing-
+
+I have designed the new custom module which has external tools used to Populate the 3rd parties results, Handle the multiple data
+in single CRUD, Menu Bars, Zend namespace etc.
+
+ Tools Used-
+
+ PhpStorm IDE for development
+ MYSQL Workbench for Database
+ Mockup tools for design the sketch and flow
+ Bitbucket for repository
+ Atlassian for documentation

@@ -1,0 +1,40 @@
+/**
+ * Created by PhpStorm.
+ * User: Pardeep K. Singhal (pardeepsingal1@gmail.com)
+ * Date: 12 Aug 2018
+ * Time: 11:32 PM
+ */
+
+/*****************************************************
+Please write SQL queries for below scenario:
+    Table: members
+    Columns: id, email, age, gender
+
+i) Write SQL query to find which age has most number of members
+
+ii) Write SQL query to find band of 5 years where we have most number of members
+Note: that age band can be any range of 5 years like 1-5, 2-6, 12-16, 23-27, etc
+******************************************************************************/
+
+Response 1:
+
+SELECT COUNT(*) AS c,age FROM members GROUP BY age ORDER BY c DESC LIMIT 1
+
+Tested Results In 1.png
+
+Response 2:
+
+SELECT
+  COUNT(*),
+  CASE
+    WHEN age >=1 AND age <=5 THEN '1-5'
+    WHEN age >=2 AND age <=6 THEN '2-6'
+    WHEN age >=12 AND age <=16 THEN '12-16'
+    WHEN age >=23 AND age <= 27 THEN '23-27'
+    WHEN age >27 THEN '27+'
+  END AS ageband
+FROM
+  members
+GROUP BY ageband;
+
+Test results in Ex2..png
